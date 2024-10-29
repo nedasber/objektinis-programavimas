@@ -3,6 +3,8 @@ function apskaiciuotireiksmesiriteracijos($number) {
     $maxValue = $number;
     $maxIterations = 0;
 
+// :) !!
+
     while ($number != 1) {
         if ($number % 2 == 0) {
             $number = $number / 2;
